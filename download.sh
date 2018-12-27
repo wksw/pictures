@@ -296,7 +296,16 @@ download3() {
 # download2 "top" &
 # download2 "pingmian" &
 
-download3 "xingganmeinv" "siwameinv" "meinvxiezhen" "rentiyishu" "qingchunmeinv" "jiepaimeinv" "changtuimeinv" "meinvmingxing" "neiyimeinv" "qingchunmeinv" &
+download3 "xingganmeinv" &
+download3 "siwameinv" &
+download3 "meinvxiezhen" &
+download3 "rentiyishu" &
+download3 "qingchunmeinv" &
+download3 "jiepaimeinv" &
+download3 "changtuimeinv" &
+download3 "meinvmingxing" &
+download3 "neiyimeinv" &
+download3 "qingchunmeinv" &
 wait
 echo 3>&-
 echo 3<&-
